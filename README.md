@@ -22,3 +22,13 @@ en RabbitMQ y un consumidor que los procese.
 ## Estado
 
 En desarrollo.
+
+## Arquitectura
+
+El sistema utiliza comunicación asíncrona mediante RabbitMQ.
+
+### Componentes
+
+- API de Pedidos: publica eventos.
+- RabbitMQ: recibe y enruta mensajes.
+- Worker: consume y procesa los mensajes.

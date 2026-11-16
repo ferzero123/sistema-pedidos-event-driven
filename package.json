@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/ferzero123/sistema-pedidos-event-driven#readme",
   "dependencies": {
+    "amqplib": "^2.4.0",
     "express": "^5.3.0"
   }
 }
